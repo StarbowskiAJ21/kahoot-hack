@@ -9,9 +9,9 @@ import (
 func main() {
 	var pin string
 	var nickname string
-	fmt.Print("Enter game pin: ")
+	fmt.Print("44644: ")
 	fmt.Scanln(&pin)
-	fmt.Print("Enter nickname: ")
+	fmt.Print("Person: ")
 	fmt.Scanln(&nickname)
 	fmt.Println("Connecting...")
 	conn, err := kahoot.NewConnection(pin)
